@@ -56,3 +56,4 @@ runs:
           -Dsonar.projectKey=variant-inc_dx-demo-go-api
           -Dsonar.organization=variant
           -Dsonar.go.coverage.reportPaths=coverage.out
+          -Dsonar.branch.name=test-branch2
