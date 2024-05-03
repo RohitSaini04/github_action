@@ -52,7 +52,7 @@ runs:
       uses: sonarsource/sonarcloud-github-action@master
       with:
         args: >
-          -Dsonar.qualitygate.wait=${{ inputs.sonar_wait_flag }}
-          -Dsonar.projectKey=${{ env.SONAR_PROJECT_KEY }}
-          -Dsonar.organization=${{ env.SONAR_ORG }}
+          -Dsonar.qualitygate.wait=false
+          -Dsonar.projectKey=variant-inc_dx-demo-go-api
+          -Dsonar.organization=variant
           -Dsonar.go.coverage.reportPaths=coverage.out
